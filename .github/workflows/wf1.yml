@@ -8,8 +8,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         
-      - name: Install Package
-        run: pip install unittest
-        
       - name: Run Tests
         run: test.py
