@@ -1,3 +1,4 @@
+from wallet import Wallet
 
 import unittest
 
